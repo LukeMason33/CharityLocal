@@ -5,7 +5,12 @@ import './App.css';
 
 const App = () => {
   return (
-    <h1>Charity Local</h1>
+    <Switch>
+      <Route
+      exact path='/'
+      render={() => {
+        < LandingPage />
+      }}
   );
 }
 
