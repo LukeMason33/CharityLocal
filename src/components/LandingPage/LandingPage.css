@@ -1,6 +1,28 @@
 .landing-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url('../../assets/landingPageImage.jpg');
   background-repeat: round;
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
+}
+
+.site-title {
+  text-align: center;
+  color: white;
+  font-size: 6vh;
+  margin-bottom: 0;
+}
+
+.site-slogan {
+  text-align: center;
+  color: white;
+  font-size: 2vh;
+}
+
+.title-slogan-container {
+  background-color: #0000008c;
+  width: 90vw;
 }
