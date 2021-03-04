@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Route, Switch} from 'react-router-dom';
+import LandingPage from '../LandingPage/LandingPage.js';
 import './App.css';
 
 
@@ -9,9 +10,11 @@ const App = () => {
       <Route
       exact path='/'
       render={() => {
-        < LandingPage />
+        return < LandingPage />
       }}
-  );
+      />
+    </Switch>
+  )
 }
 
 export default App;
