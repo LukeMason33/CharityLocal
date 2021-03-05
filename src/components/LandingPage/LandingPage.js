@@ -12,7 +12,7 @@ const LandingPage = () => {
           <h2 className='site-slogan'>Give back to your community. Donate locally.</h2>
         </div>
       </div>
-      <div classname='form-container'>
+      <div className='form-container'>
         < LandingPageForm />
       </div>
     </section>

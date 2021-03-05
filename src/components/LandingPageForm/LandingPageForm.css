@@ -1,0 +1,66 @@
+.landing-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-category-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 70vw;
+  height: 30vh;
+  background-color: #000000cc;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.black-charity-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 70vw;
+  height: 30vh;
+  background-color: #000000cc;
+  color: white;
+}
+
+.charity-search-header-container {
+  text-align-last: center;
+  font-size: 3vh;
+}
+
+.charity-search-header {
+  margin-bottom: 1vh;
+}
+
+.charity-search-description {
+  text-align: center;
+  font-size: 2.6vh;
+  margin-top: 1vh;
+}
+
+.select-category-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 24vw;
+}
+
+.select-location-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+
+.state-container {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+}
+
+.city-container {
+  display: flex;
+  flex-direction: column;
+}

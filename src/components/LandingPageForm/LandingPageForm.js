@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import './LandingPageForm.css';
 
 const LandingPageForm = () => {
   const [category, setCategory] = useState('');
@@ -7,8 +8,8 @@ const LandingPageForm = () => {
   const [cityInput1, setCityInput1] = useState('');
   const [stateInput2, setStateInput2] = useState('');
   const [cityInput2, setCityInput2] = useState('');
-  const [activeLink1, setActiveLink1] = useState(false);
-  const [activeLink2, setActiveLink2] = useState(false);
+  const [disableLink1, setDisabledLink1] = useState(true);
+  const [disableLink2, setDisabledLink2] = useState(true);
 
   return (
     <form className='landing-page-form'>
@@ -17,7 +18,7 @@ const LandingPageForm = () => {
           <h3 className='charity-search-header'>Find Local Charities</h3>
         </div>
         <div className='select-category-input-container'>
-          <label for='select-category'>Choose a Category of Charity</label>
+          <label htmlFor='select-category'>Choose a Category of Charity</label>
           <select
             name='select-category'
             className='select-category'
@@ -26,7 +27,7 @@ const LandingPageForm = () => {
         </div>
         <div className='select-location-container'>
           <div className='state-container'>
-            <label for='select-state'>State</label>
+            <label htmlFor='select-state'>State</label>
             <select
               name='select-state'
               className='select-state'
@@ -34,16 +35,18 @@ const LandingPageForm = () => {
             </select>
           </div>
           <div className='city-container'>
-            <label for='select-city'>City</label>
-            <select
+            <label htmlFor='select-city'>City</label>
+            <input
               name='select-city'
               className='select-city'
+              type='text'
+              placeholder='City Name'
               onChange={event => setCityInput1(event.target.value)}>
-            </select>
+            </input>
           </div>
         </div>
         <Link to='/dashboard'>
-          <button disabled='true'>Find Charities</button>
+          <button className='find-charities-btn' disabled={disableLink1}>Find Charities</button>
         </Link>
       </section>
       <section className='black-charity-section'>
@@ -53,7 +56,7 @@ const LandingPageForm = () => {
         </div>
         <div className='select-location-container'>
           <div className='state-container'>
-            <label for='select-state'>State</label>
+            <label htmlFor='select-state'>State</label>
             <select
               name='select-state'
               className='select-state'
@@ -61,16 +64,18 @@ const LandingPageForm = () => {
             </select>
           </div>
           <div className='city-container'>
-            <label for='select-city'>City</label>
-            <select
+            <label htmlFor='select-city'>City</label>
+            <input
               name='select-city'
               className='select-city'
+              type='text'
+              placeholder='City Name'
               onChange={event => setCityInput2(event.target.value)}>
-            </select>
+            </input>
           </div>
         </div>
         <Link to='/dashboard'>
-          <button disabled='true'>Find Charities</button>
+          <button className='find-charities-btn' disabled={disableLink2}>Find Charities</button>
         </Link>
       </section>
     </form>
