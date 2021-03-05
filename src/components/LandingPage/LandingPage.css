@@ -1,0 +1,39 @@
+.landing-page {
+  background-image: url('../../assets/landingPageImage.jpg');
+  background-repeat: round;
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 30vh;
+}
+
+.site-title {
+  text-align: center;
+  color: white;
+  font-size: 6.5vh;
+  margin-bottom: 0;
+}
+
+.site-slogan {
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+}
+
+.title-slogan-container {
+  background-color: #0000008c;
+  width: 50vw;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
