@@ -22,7 +22,7 @@ const LandingPageForm = () => {
             name='select-category'
             className='select-category'
             onChange={event => setCategory(event.target.value)}>
-          </seclect>
+          </select>
         </div>
         <div className='select-location-container'>
           <div className='state-container'>
