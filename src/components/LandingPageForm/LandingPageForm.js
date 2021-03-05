@@ -11,6 +11,14 @@ const LandingPageForm = () => {
   const [disableLink1, setDisabledLink1] = useState(true);
   const [disableLink2, setDisabledLink2] = useState(true);
 
+  useEffect(() => {
+    if(category && stateInput1 && cityInput1) {
+      setDisabledLink1(false);
+    } else {
+      setDisabledLink1(true);
+    }
+  }, [category, stateInput1, cityInput1])
+
   return (
     <form className='landing-page-form'>
       <section className='select-category-section'>
@@ -23,6 +31,8 @@ const LandingPageForm = () => {
             name='select-category'
             className='select-category'
             onChange={event => setCategory(event.target.value)}>
+            <option value=''>--Choose a Category--</option>
+            <option value='t'>test</option>
           </select>
         </div>
         <div className='select-location-container'>
@@ -32,6 +42,8 @@ const LandingPageForm = () => {
               name='select-state'
               className='select-state'
               onChange={event => setStateInput1(event.target.value)}>
+                <option value=''>--Select A State--</option>
+                <option value='t'>test</option>
             </select>
           </div>
           <div className='city-container'>
