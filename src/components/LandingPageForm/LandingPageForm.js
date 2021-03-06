@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
 
-const LandingPageForm = () => {
+const LandingPageForm = ({fetchCharitiesByCategory}) => {
   const [category, setCategory] = useState('');
   const [stateInput1, setStateInput1] = useState('');
   const [cityInput1, setCityInput1] = useState('');
@@ -71,7 +71,7 @@ const LandingPageForm = () => {
           </div>
         </div>
         <Link to='/dashboard'>
-          <button className='find-charities-btn' disabled={disableLink1}>Find Charities</button>
+          <button className='find-charities-btn' disabled={disableLink1} onClick={event => fetchCharitiesByCategory(stateInput1, cityInput1, category)}>Find Charities</button>
         </Link>
       </section>
       <section className='black-charity-section'>
