@@ -19,7 +19,7 @@ const App = () => {
       <Route
       exact path='/'
       render={() => {
-        return < LandingPage />
+        return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory}/>
       }}
       />
     </Switch>
