@@ -45,7 +45,7 @@ const LandingPageForm = () => {
             className='select-category'
             onChange={event => setCategory(event.target.value)}>
             <option value=''>--Choose a Category--</option>
-            <option value='t'>test</option>
+            {fillOptionsForInputs(categoryData)}
           </select>
         </div>
         <div className='select-location-container'>
@@ -56,6 +56,7 @@ const LandingPageForm = () => {
               className='select-state'
               onChange={event => setStateInput1(event.target.value)}>
                 <option value=''>--Select A State--</option>
+                {fillOptionsForInputs(stateData)}
             </select>
           </div>
           <div className='city-container'>
@@ -86,7 +87,7 @@ const LandingPageForm = () => {
               className='select-state'
               onChange={event => setStateInput2(event.target.value)}>
               <option value=''>--Select A State--</option>
-              <option value='t'>test</option>
+              {fillOptionsForInputs(stateData)}
             </select>
           </div>
           <div className='city-container'>
