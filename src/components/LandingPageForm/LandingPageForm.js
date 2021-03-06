@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
 
 const LandingPageForm = () => {
@@ -10,6 +11,10 @@ const LandingPageForm = () => {
   const [cityInput2, setCityInput2] = useState('');
   const [disableLink1, setDisabledLink1] = useState(true);
   const [disableLink2, setDisabledLink2] = useState(true);
+
+  const fillOptionsForInputs = (optionsData) => {
+    return optionsData.map(data => <option value={data.id}>{data.value}</option>);
+  }
 
   useEffect(() => {
     if(category && stateInput1 && cityInput1) {
@@ -51,7 +56,6 @@ const LandingPageForm = () => {
               className='select-state'
               onChange={event => setStateInput1(event.target.value)}>
                 <option value=''>--Select A State--</option>
-                <option value='t'>test</option>
             </select>
           </div>
           <div className='city-container'>
