@@ -18,10 +18,16 @@ const App = () => {
   return (
     <Switch>
       <Route
-      exact path='/'
-      render={() => {
-        return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory}/>
-      }}
+        exact path='/'
+        render={() => {
+          return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory}/>
+        }}
+      />
+      <Route 
+        exact path ='/dashboard'
+        render {() => {
+          return < MainDashboard charities={charities} />
+        }}
       />
     </Switch>
   )
