@@ -18,7 +18,7 @@ export const modifyDataFromFetch = (response) => {
   return response.map(data => {
     return {
       name: data.charityName,
-      mission: data.mission,
+      mission: data.mission.replace(/<br>/g, ''),
       cause: data.cause.causeName,
       website: data.websiteURL,
       address: data.mailingAddress

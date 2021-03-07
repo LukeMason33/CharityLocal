@@ -7,6 +7,9 @@ const MainDashboard = ({charities}) => {
   return (
     <>
       <header className='dashboard-header'>
+        <Link to='/'>
+          <button className='to-landing-page-btn'>Back to Charity Search</button>
+        </Link>
         <Link to='/about'>
           <button className='to-about-btn'>About</button>
         </Link>
