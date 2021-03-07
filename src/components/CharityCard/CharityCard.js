@@ -11,14 +11,14 @@ const CharityCard = ({charity}) => {
           <p className='state-and-city'>{charity.address.city}, {charity.address.stateOrProvince}</p>
           <p className='address'>{charity.address.streetAddress1} {charity.address.streetAddress2}, {charity.address.postalCode}</p>
         </div>
-        <div className='cause-container'>
-          <h2>Cause</h2>
-          <p className='charity-cause'>{charity.cause}</p>
-        </div>
-        <div className='mission-container'>
-          <h2>Mission</h2>
-          <p className='charity-mission'>{charity.mission}</p>
-        </div>
+      </div>
+      <div className='cause-container'>
+        <h2>Cause</h2>
+        <p className='charity-cause'>{charity.cause}</p>
+      </div>
+      <div className='mission-container'>
+        <h2>Mission</h2>
+        <p className='charity-mission'>{charity.mission}</p>
       </div>
     </article>
   )

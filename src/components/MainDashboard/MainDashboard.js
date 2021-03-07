@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import CharityContainer from '../CharityContainer/CharityContainer.js';
+import './MainDashboard.css';
 
 
 const MainDashboard = ({charities}) => {
