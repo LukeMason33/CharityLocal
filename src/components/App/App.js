@@ -1,16 +1,17 @@
 import React, {useState} from 'react';
 import {Route, Switch} from 'react-router-dom';
 import LandingPage from '../LandingPage/LandingPage.js';
-import {fetchLocalCharities} from '../../utilities.js';
+import {fetchLocalCharities, modifyDataFromFetch} from '../../utilities.js';
 import './App.css';
 
 
 const App = () => {
+  const [charities, setCharities] = useState([]);
 
   const fetchCharitiesByCategory = (state, city, category) => {
     fetchLocalCharities(state, city, category)
       .then(response => {
-        console.log(response)
+        setCharities(modifyDataFromFetch(response))
       })
   }
 
