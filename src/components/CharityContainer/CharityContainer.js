@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import CharityCard from '../CharityCard/CharityCard.js';
+import './CharityContainer.css';
 
 const CharityContainer = ({charities}) => {
 

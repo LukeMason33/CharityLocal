@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import './CharityCard.css';
 
 const CharityCard = ({charity}) => {
 
   return (
-    <article className={`${charity.name}-charity-card`}>
+    <article className='charity-card'>
       <div className='name-and-address-container'>
         <h1 className='charity-name'><a href={charity.website}>{charity.name}</a></h1>
         <div className='address-container'>
