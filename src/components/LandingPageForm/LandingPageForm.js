@@ -3,14 +3,12 @@ import {Link} from 'react-router-dom';
 import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
 
-const LandingPageForm = ({fetchCharitiesByCategory}) => {
+const LandingPageForm = ({fetchCharitiesByCategory, error}) => {
   const [category, setCategory] = useState('');
   const [stateInput1, setStateInput1] = useState('');
   const [cityInput1, setCityInput1] = useState('');
-  const [stateInput2, setStateInput2] = useState('');
-  const [cityInput2, setCityInput2] = useState('');
   const [disableLink1, setDisabledLink1] = useState(true);
-  const [disableLink2, setDisabledLink2] = useState(true);
+  const [errorMessage, setError] = useState(error);
 
   const fillOptionsForInputs = (optionsData) => {
     return optionsData.map(data => <option value={data.id}>{data.value}</option>);
@@ -23,14 +21,6 @@ const LandingPageForm = ({fetchCharitiesByCategory}) => {
       setDisabledLink1(true);
     }
   }, [category, stateInput1, cityInput1])
-
-  useEffect(() => {
-    if(stateInput2 && cityInput2) {
-      setDisabledLink2(false);
-    } else {
-      setDisabledLink2(true);
-    }
-  }, [stateInput2, cityInput2])
 
   return (
     <form className='landing-page-form'>
