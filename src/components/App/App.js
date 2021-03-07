@@ -20,6 +20,10 @@ const App = () => {
       })
   }
 
+  const clearError = () => {
+    setNoCharitiesFoundError('');
+  }
+
   return (
     <>
       {noCharitiesFoundError && < Redirect to='/' />}
@@ -27,7 +31,11 @@ const App = () => {
         <Route
           exact path='/'
           render={() => {
-            return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory} error={noCharitiesFoundError}/>
+            return < LandingPage
+              fetchCharitiesByCategory={fetchCharitiesByCategory}
+              error={noCharitiesFoundError}
+              clearError={clearError}
+            />
           }}
         />
         <Route

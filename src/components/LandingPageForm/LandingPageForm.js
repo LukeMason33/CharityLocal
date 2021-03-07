@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
 
-const LandingPageForm = ({fetchCharitiesByCategory, error}) => {
+const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
   const [category, setCategory] = useState('');
   const [stateInput1, setStateInput1] = useState('');
   const [cityInput1, setCityInput1] = useState('');
@@ -12,6 +12,11 @@ const LandingPageForm = ({fetchCharitiesByCategory, error}) => {
 
   const fillOptionsForInputs = (optionsData) => {
     return optionsData.map(data => <option value={data.id}>{data.value}</option>);
+  }
+
+  const clearErrorMessageAfterClick = () => {
+    setError('');
+    clearError();
   }
 
   useEffect(() => {
@@ -27,13 +32,15 @@ const LandingPageForm = ({fetchCharitiesByCategory, error}) => {
       <section className='select-category-section'>
         <div className='charity-search-header-container'>
           <h3 className='charity-search-header'>Find Local Charities</h3>
+          {errorMessage && <p className='error'>{errorMessage}</p>}
         </div>
         <div className='select-category-input-container'>
           <label htmlFor='select-category'>Choose a Category of Charity</label>
           <select
             name='select-category'
             className='select-category'
-            onChange={event => setCategory(event.target.value)}>
+            onChange={event => setCategory(event.target.value)}
+            onClick={clearErrorMessageAfterClick}>
             <option value=''>--Choose a Category--</option>
             {fillOptionsForInputs(categoryData)}
           </select>
