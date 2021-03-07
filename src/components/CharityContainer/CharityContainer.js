@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
+import CharityCard from '../CharityCard/CharityCard.js';
 
 const CharityContainer = ({charities}) => {
 
-  const fillCharityCards () => {
-    charities.map(charity => < CharityCard charity={charity} />)
+  const fillCharityCards = () => {
+    return charities.map(charity => < CharityCard charity={charity} />)
   }
 
   return (
@@ -12,3 +13,5 @@ const CharityContainer = ({charities}) => {
     </section>
   )
 }
+
+export default CharityContainer;
