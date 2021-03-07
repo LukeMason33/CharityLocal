@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
 
-const LandingPageForm = () => {
+const LandingPageForm = ({fetchCharitiesByCategory}) => {
   const [category, setCategory] = useState('');
   const [stateInput1, setStateInput1] = useState('');
   const [cityInput1, setCityInput1] = useState('');
@@ -71,38 +71,7 @@ const LandingPageForm = () => {
           </div>
         </div>
         <Link to='/dashboard'>
-          <button className='find-charities-btn' disabled={disableLink1}>Find Charities</button>
-        </Link>
-      </section>
-      <section className='black-charity-section'>
-        <div className='charity-search-header-container'>
-          <h3 className='charity-search-header'>Find Local Black Charities</h3>
-          <p className='charity-search-description'>If you would like to find local Black charities to support, fill out the following fields:</p>
-        </div>
-        <div className='select-location-container'>
-          <div className='state-container'>
-            <label htmlFor='select-state'>State</label>
-            <select
-              name='select-state'
-              className='select-state'
-              onChange={event => setStateInput2(event.target.value)}>
-              <option value=''>--Select A State--</option>
-              {fillOptionsForInputs(stateData)}
-            </select>
-          </div>
-          <div className='city-container'>
-            <label htmlFor='select-city'>City</label>
-            <input
-              name='select-city'
-              className='select-city'
-              type='text'
-              placeholder='City Name'
-              onChange={event => setCityInput2(event.target.value)}>
-            </input>
-          </div>
-        </div>
-        <Link to='/dashboard'>
-          <button className='find-charities-btn' disabled={disableLink2}>Find Charities</button>
+          <button className='find-charities-btn' disabled={disableLink1} onClick={event => fetchCharitiesByCategory(stateInput1, cityInput1, category)}>Find Charities</button>
         </Link>
       </section>
     </form>

@@ -57,7 +57,7 @@
 .state-container {
   display: flex;
   flex-direction: column;
-  width: 10vw;
+  width: 12vw;
 }
 
 .city-container {
