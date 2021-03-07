@@ -14,6 +14,9 @@ const App = () => {
       .then(response => {
         setCharities(modifyDataFromFetch(response))
       })
+      .catch(error => {
+        console.log(error.message)
+      })
   }
 
   return (
