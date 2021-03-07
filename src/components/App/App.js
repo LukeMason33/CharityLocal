@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Route, Switch} from 'react-router-dom';
 import LandingPage from '../LandingPage/LandingPage.js';
+import MainDashboard from '../MainDashboard/MainDashboard.js';
 import {fetchLocalCharities, modifyDataFromFetch} from '../../utilities.js';
 import './App.css';
 
@@ -23,9 +24,9 @@ const App = () => {
           return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory}/>
         }}
       />
-      <Route 
-        exact path ='/dashboard'
-        render {() => {
+      <Route
+        exact path='/dashboard'
+        render={() => {
           return < MainDashboard charities={charities} />
         }}
       />
