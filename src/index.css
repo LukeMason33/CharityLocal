@@ -27,3 +27,7 @@ button {
   width: 15vh;
   background-color: #bfbf26;
 }
+
+h2 {
+  margin-bottom: .1vh;
+}

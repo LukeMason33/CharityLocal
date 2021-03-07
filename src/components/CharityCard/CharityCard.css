@@ -3,4 +3,28 @@
   background-color: #000000d6;
   width: 95vw;
   border-radius: 5px;
+  margin-top: 2vh;
+}
+
+.name-and-address-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.charity-name {
+  color: white;
+  font-size: x-large;
+  margin: 1vh;
+}
+
+.address-container {
+  margin-right: .5vw;
+}
+
+.mission-container, .cause-container {
+  padding: 1vh;
+}
+
+.charity-cause, .charity-mission {
+  margin-top: .1vh;
 }
