@@ -42,7 +42,7 @@ const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
             className='select-category'
             onChange={event => setCategory(event.target.value)}
             onClick={clearErrorMessageAfterClick}>
-            <option value=''>--Choose a Category--</option>
+            <option value=''>--Select a Category--</option>
             {fillOptionsForInputs(categoryData)}
           </select>
         </div>
@@ -53,7 +53,7 @@ const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
               name='select-state'
               className='select-state'
               onChange={event => setStateInput1(event.target.value)}>
-                <option value=''>--Select A State--</option>
+                <option value=''>--Select a State--</option>
                 {fillOptionsForInputs(stateData)}
             </select>
           </div>

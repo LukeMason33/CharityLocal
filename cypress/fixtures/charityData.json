@@ -1,0 +1,314 @@
+[
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=3610&utm_source=DataAPI&utm_content=03ccde74",
+    "mission": "The Dumb Friends League mission is working with our compassionate community we will end pet homelessness and animal suffering.<br><br>Founded in 1910, the Dumb Friends League speaks for those who cannot speak for themselves and is a national leader in providing care to lost and abandoned pets, adopting pets to new homes, helping pets stay in homes, educating pet owners and the public, rescuing sick, injured and abused animals, providing free or low cost spay/neuter and veterinary services. The Harmony Equine Center receives abused and neglected horses that are removed from owners by law enforcement agencies, offering them rehabilitation, training and adoption opportunities. The largest independent, community-based animal welfare organization in the Rocky Mountain region, it receives more than 21,000 animals a year. <br>",
+    "websiteURL": "http://www.ddfl.org/",
+    "tagLine": "Compassion always",
+    "charityName": "Dumb Friends League",
+    "ein": "840405254",
+    "currentRating": {
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4stars.png"
+      },
+      "rating": 4
+    },
+    "category": {
+      "categoryName": "Animals",
+      "categoryID": 1,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=1&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/animals.png?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "cause": {
+      "causeID": 2,
+      "causeName": "Animal Rights, Welfare, and Services",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=1&cuid=2&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/animal_rights.gif?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 132819859,
+      "nteeType": "Animal-Related",
+      "nteeSuffix": "0",
+      "incomeAmount": 37195545,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Organization to Prevent Cruelty to Animals",
+      "latest990": "June, 2020",
+      "rulingDate": "July, 1942",
+      "nteeCode": "D20",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization that normally receives no more than one-third of its support from gross investment income and unrelated business income and at the same time more than one-third of its support from contributions, fees, and gross receipts related to exempt purposes.  509(a)(2)",
+      "nteeClassification": "Animal Protection and Welfare",
+      "accountingPeriod": "June",
+      "exemptOrgStatusCode": "01",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "nteeLetter": "D"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "CO",
+      "city": "Denver",
+      "postalCode": "80231    ",
+      "streetAddress1": "2080 South Quebec Street",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/840405254/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "Dumb Friends League",
+      "ein": "840405254",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=3610&utm_source=DataAPI&utm_content=03ccde74",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/840405254"
+        }
+      }
+    }
+  },
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=3613&utm_source=DataAPI&utm_content=03ccde74",
+    "mission": "Secure a better world for animals through human understanding",
+    "websiteURL": "http://www.denverzoo.org",
+    "tagLine": "Secure a better world for animals through human understanding",
+    "charityName": "Denver Zoological Foundation",
+    "ein": "840502539",
+    "currentRating": {
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/3starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/3stars.png"
+      },
+      "rating": 3
+    },
+    "category": {
+      "categoryName": "Animals",
+      "categoryID": 1,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=1&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/animals.png?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "cause": {
+      "causeID": 32,
+      "causeName": "Zoos and Aquariums",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=1&cuid=32&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/zoos_aquariums.jpg?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 29537832,
+      "nteeType": "Animal-Related",
+      "nteeSuffix": "5",
+      "incomeAmount": 52981805,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Educational Organization",
+      "latest990": "December, 2019",
+      "rulingDate": "December, 1952",
+      "nteeCode": "D11",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "Single Organization Support ",
+      "accountingPeriod": "December",
+      "exemptOrgStatusCode": "01",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "nteeLetter": "D"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "CO",
+      "city": "Denver",
+      "postalCode": "80205    ",
+      "streetAddress1": "2300 Steele Street",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/840502539/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "Denver Zoological Foundation",
+      "ein": "840502539",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=3613&utm_source=DataAPI&utm_content=03ccde74",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/840502539"
+        }
+      }
+    }
+  },
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=5736&utm_source=DataAPI&utm_content=03ccde74",
+    "mission": "The MaxFund Animal Adoption Center was established in 1988 to provide medical care for injured pets with no known owners, and to seek out new homes for these animals once they have recovered. The MaxFund provides emergency care and a home for injured animals until the owner is located or a suitable home is found. This service is provided, without cost, to the caring person who notifies the MaxFund. The MaxFund is a true no-kill shelter. We also provide low-cost vaccinations, pet food, and spay/neuter clinics for pets of low income families; no-fee adoptions for senior citizens and AIDS patients; and a therapy program which takes pets to visit senior centers, the VA Hospital and nursing homes.",
+    "websiteURL": "http://www.maxfund.org",
+    "tagLine": "A true no-kill shelter",
+    "charityName": "MaxFund",
+    "ein": "841116882",
+    "currentRating": {
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/4stars.png"
+      },
+      "rating": 4
+    },
+    "category": {
+      "categoryName": "Animals",
+      "categoryID": 1,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=1&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/animals.png?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "cause": {
+      "causeID": 2,
+      "causeName": "Animal Rights, Welfare, and Services",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=1&cuid=2&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/animal_rights.gif?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 13591669,
+      "nteeType": "Animal-Related",
+      "nteeSuffix": "0",
+      "incomeAmount": 3867925,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Charitable Organization",
+      "latest990": "December, 2019",
+      "rulingDate": "March, 1990",
+      "nteeCode": "D20",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "Animal Protection and Welfare",
+      "accountingPeriod": "December",
+      "exemptOrgStatusCode": "01",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "nteeLetter": "D"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "CO",
+      "city": "Denver",
+      "postalCode": "80204",
+      "streetAddress1": "720 West 10th Avenue",
+      "streetAddress2": null
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/841116882/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "MaxFund",
+      "ein": "841116882",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=5736&utm_source=DataAPI&utm_content=03ccde74",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/841116882"
+        }
+      }
+    }
+  },
+  {
+    "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=4127&utm_source=DataAPI&utm_content=03ccde74",
+    "mission": "Established in 1948, Morris Animal Foundation is dedicated to improving and protecting the health of animals through scientific innovation, education and inspiration. Our investment in research has yielded life-saving vaccines, new treatments for critical diseases, superior screening tests, and advanced diagnostic tools. We respond to emerging animal health threats that endanger entire species, and make new discoveries in basic animal biology to support applied research. With every study we fund - more than 2,600 to date - we strive to advance the science of veterinary medicine, honoring the founding principles of Dr. Mark L. Morris Sr. to benefit animals worldwide. Learn more at morrisanimalfoundation.org.",
+    "websiteURL": "http://www.morrisanimalfoundation.org",
+    "tagLine": "Advancing the health of animals through science",
+    "charityName": "Morris Animal Foundation",
+    "ein": "846032307",
+    "currentRating": {
+      "ratingImage": {
+        "small": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/3starsb.png",
+        "large": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/stars/3stars.png"
+      },
+      "rating": 3
+    },
+    "category": {
+      "categoryName": "Animals",
+      "categoryID": 1,
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=1&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/icons/categories/animals.png?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "cause": {
+      "causeID": 2,
+      "causeName": "Animal Rights, Welfare, and Services",
+      "charityNavigatorURL": "https://www.charitynavigator.org/index.cfm?bay=search.results&cgid=1&cuid=2&utm_source=DataAPI&utm_content=03ccde74",
+      "image": "https://d20umu42aunjpx.cloudfront.net/_gfx_/causes/small/animal_rights.gif?utm_source=DataAPI&utm_content=03ccde74"
+    },
+    "irsClassification": {
+      "deductibility": "Contributions are deductible",
+      "subsection": "501(c)(3)",
+      "assetAmount": 96366547,
+      "nteeType": "Animal-Related",
+      "nteeSuffix": "0",
+      "incomeAmount": 13489759,
+      "filingRequirement": "990 (all other) or 990EZ return",
+      "classification": "Charitable Organization",
+      "latest990": "June, 2019",
+      "rulingDate": "July, 1956",
+      "nteeCode": "D05",
+      "groupName": null,
+      "affiliation": "Independent - the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "deductibilityCode": "1",
+      "foundationStatus": "Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)",
+      "nteeClassification": "Research Institutes and/or Public Policy Analysis ",
+      "accountingPeriod": "June",
+      "exemptOrgStatusCode": "01",
+      "exemptOrgStatus": "Unconditional Exemption",
+      "deductibilityDetail": null,
+      "nteeLetter": "D"
+    },
+    "mailingAddress": {
+      "country": null,
+      "stateOrProvince": "CO",
+      "city": "Denver",
+      "postalCode": "80246",
+      "streetAddress1": "720 S. Colorado Blvd.",
+      "streetAddress2": "Ste. 174A"
+    },
+    "advisories": {
+      "severity": null,
+      "active": {
+        "_rapid_links": {
+          "related": {
+            "href": "https://api.data.charitynavigator.org/v2/Organizations/846032307/Advisories?status=ACTIVE"
+          }
+        }
+      }
+    },
+    "organization": {
+      "charityName": "Morris Animal Foundation",
+      "ein": "846032307",
+      "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.summary&orgid=4127&utm_source=DataAPI&utm_content=03ccde74",
+      "_rapid_links": {
+        "related": {
+          "href": "https://api.data.charitynavigator.org/v2/Organizations/846032307"
+        }
+      }
+    }
+  }
+]
