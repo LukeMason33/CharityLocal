@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import CharityContainer from '../CharityContainer/CharityContainer.js';
 import './MainDashboard.css';
-
+import PropTypes from 'prop-types';
 
 const MainDashboard = ({charities}) => {
   return (
@@ -27,3 +27,7 @@ const MainDashboard = ({charities}) => {
 }
 
 export default MainDashboard;
+
+MainDashboard.propTypes = {
+  charities: PropTypes.array
+}
