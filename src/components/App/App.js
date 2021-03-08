@@ -1,29 +1,55 @@
 import React, {useState} from 'react';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, Redirect} from 'react-router-dom';
 import LandingPage from '../LandingPage/LandingPage.js';
+import MainDashboard from '../MainDashboard/MainDashboard.js';
 import {fetchLocalCharities, modifyDataFromFetch} from '../../utilities.js';
 import './App.css';
 
 
 const App = () => {
   const [charities, setCharities] = useState([]);
+  const [noCharitiesFoundError, setNoCharitiesFoundError] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const fetchCharitiesByCategory = (state, city, category) => {
+    setLoading(true);
     fetchLocalCharities(state, city, category)
       .then(response => {
         setCharities(modifyDataFromFetch(response))
+        setLoading(false)
+      })
+      .catch(error => {
+        setNoCharitiesFoundError(error.message);
       })
   }
 
+  const clearError = () => {
+    setNoCharitiesFoundError('');
+  }
+
   return (
-    <Switch>
-      <Route
-      exact path='/'
-      render={() => {
-        return < LandingPage fetchCharitiesByCategory={fetchCharitiesByCategory}/>
-      }}
-      />
-    </Switch>
+    <>
+      {noCharitiesFoundError && < Redirect to='/' />}
+      <Switch>
+        <Route
+          exact path='/'
+          render={() => {
+            return < LandingPage
+              fetchCharitiesByCategory={fetchCharitiesByCategory}
+              error={noCharitiesFoundError}
+              clearError={clearError}
+            />
+          }}
+        />
+        {loading && <p className='loading-message'>Loading Charities...</p>}
+        <Route
+          exact path='/dashboard'
+          render={() => {
+            return < MainDashboard charities={charities} />
+          }}
+        />
+      </Switch>
+    </>
   )
 }
 

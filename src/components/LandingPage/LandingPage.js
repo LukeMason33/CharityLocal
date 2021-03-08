@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import LandingPageForm from '../LandingPageForm/LandingPageForm.js';
 import './LandingPage.css';
 
-const LandingPage = ({fetchCharitiesByCategory}) => {
+const LandingPage = ({fetchCharitiesByCategory, error, clearError}) => {
   return (
     <section className='landing-page'>
       <div className='landing-page-header'>
@@ -13,7 +13,11 @@ const LandingPage = ({fetchCharitiesByCategory}) => {
         </div>
       </div>
       <div className='form-container'>
-        < LandingPageForm fetchCharitiesByCategory={fetchCharitiesByCategory}/>
+        < LandingPageForm
+          fetchCharitiesByCategory={fetchCharitiesByCategory}
+          error={error}
+          clearError={clearError}
+        />
       </div>
     </section>
   )

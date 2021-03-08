@@ -7,10 +7,10 @@ export const fetchLocalCharities = (state, city, category) => {
 }
 
 const handleFetchErrors = (response) => {
-  if (response.code >= 500) {
+  if (response.status >= 500) {
     throw new Error('The server is not responding. Please refresh the page and try again.')
-  } else {
-    return response;
+  } else if (response.status === 404) {
+    throw new Error('Sorry, but there seems to be no charities in our database that matched your search. Try searching for a different category OR location.');
   }
 }
 
@@ -18,7 +18,7 @@ export const modifyDataFromFetch = (response) => {
   return response.map(data => {
     return {
       name: data.charityName,
-      mission: data.mission,
+      mission: data.mission.replace(/<br>/g, ''),
       cause: data.cause.causeName,
       website: data.websiteURL,
       address: data.mailingAddress
