@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './About.css';
 import myPhoto from '../../assets/myPhoto.png';
 
-const AboutPage = ({charities}) => {
+const AboutPage = ({charities, setLoading}) => {
 
   const renderBackToCharitiesBtn = () => {
     if (charities.length > 0) {

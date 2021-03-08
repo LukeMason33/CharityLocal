@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import LandingPageForm from '../LandingPageForm/LandingPageForm.js';
 import './LandingPage.css';

@@ -46,7 +46,6 @@
 .state-container {
   display: flex;
   flex-direction: column;
-  width: 12vw;
 }
 
 .city-container {

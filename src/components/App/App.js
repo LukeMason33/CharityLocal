@@ -21,6 +21,7 @@ const App = () => {
         setLoading(false)
       })
       .catch(error => {
+        setLoading(false)
         setNoCharitiesFoundError(error.message);
       })
   }

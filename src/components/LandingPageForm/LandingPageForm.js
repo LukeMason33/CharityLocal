@@ -11,7 +11,7 @@ const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
   const [errorMessage, setError] = useState(error);
 
   const fillOptionsForInputs = (optionsData) => {
-    return optionsData.map(data => <option value={data.id}>{data.value}</option>);
+    return optionsData.map((data, index) => <option key={index} value={data.id}>{data.value}</option>);
   }
 
   const clearErrorMessageAfterClick = () => {

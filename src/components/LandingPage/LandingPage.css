@@ -44,3 +44,32 @@
 .to-about-btn {
   align-self: center;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .title-slogan-container {
+    width: 90vw;
+  }
+
+  .form-container {
+    margin-top: 10vh;
+  }
+
+  .select-category-section {
+    width: 95vw;
+    height: 37vh;
+  }
+
+  .select-category-input-container {
+    width: 70vw
+  }
+
+  .select-location-container {
+    flex-direction: column;
+  }
+
+  .state-container {
+    width: 50vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+}
