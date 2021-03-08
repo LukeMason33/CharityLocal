@@ -20,7 +20,7 @@ const AboutPage = ({charities}) => {
       <article className='author'>
         <h2 className='author-title'>App Author</h2>
         <img className='author-img' src={myPhoto} alt='Man smiling in a snowy mountain setting'/>
-        <a className='linn-to-github' href=''>Luke Mason</a>
+        <a className='link-to-github' href='https://github.com/LukeMason33'>Luke Mason</a>
       </article>
       <article className='app-desrciption'>
         <h2 className='description-header'>Why Create This App?</h2>
