@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import React from 'react';
 import './CharityCard.css';
+import PropTypes from 'prop-types';
 
 const CharityCard = ({charity}) => {
 
@@ -26,3 +26,7 @@ const CharityCard = ({charity}) => {
 }
 
 export default CharityCard;
+
+CharityCard.propTypes = {
+  charity: PropTypes.object
+}

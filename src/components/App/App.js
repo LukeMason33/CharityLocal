@@ -21,6 +21,7 @@ const App = () => {
         setLoading(false)
       })
       .catch(error => {
+        setLoading(false)
         setNoCharitiesFoundError(error.message);
       })
   }
@@ -57,7 +58,7 @@ const App = () => {
         <Route
           exact path='/about'
           render={() => {
-            return < AboutPage charities={charities} />
+            return < AboutPage charities={charities} clearError={clearError}/>
           }}
         />
         <Route

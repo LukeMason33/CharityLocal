@@ -32,3 +32,9 @@ a {
 .to-dashboard-page-btn {
   width: 20vw;
 }
+
+@media only screen and (max-device-width : 650px) {
+  .to-dashboard-page-btn {
+    width: 25vw;
+  }
+}
