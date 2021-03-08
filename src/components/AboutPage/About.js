@@ -16,8 +16,10 @@ const AboutPage = () => {
       </article>
       <article className='resources'>
         <h2 classname='resources-header'>Resources</h2>
-        <p className='resources-text'>For the data used on this website, I utilized <a className='data-link' href='https://www.charitynavigator.org/?c_src=WPAIDSEARCH&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r54ZiQTmEy7R4asgI-xObNIrf2473cNbYdalukIsrmr_l2iFSQF5kYaAuSmEALw_wcB'>Charity Navigator's</a>API.</p>
+        <p className='resources-text'>For the data used on this website, I utilized <a className='data-link' href='https://www.charitynavigator.org/?c_src=WPAIDSEARCH&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r54ZiQTmEy7R4asgI-xObNIrf2473cNbYdalukIsrmr_l2iFSQF5kYaAuSmEALw_wcB'>Charity Navigator's</a> API.</p>
       </article>
     </section>
   )
 }
+
+export default AboutPage;
