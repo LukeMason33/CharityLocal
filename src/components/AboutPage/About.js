@@ -9,7 +9,7 @@ const AboutPage = ({charities}) => {
     if (charities.length > 0) {
       return (
         <Link to='/dashboard'>
-          <button className='to-dashboard-page-btn'>Back to Charities</button>
+          <button className='to-dashboard-page-btn'>Back to Previously Searched Charities</button>
         </Link>
       )
     }

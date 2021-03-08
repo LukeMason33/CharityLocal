@@ -18,6 +18,7 @@
   width: 95vw;
   background-color: #000000c7;
   color: white;
+  padding-bottom: 2vh;
 }
 
 .author-img {
@@ -26,4 +27,8 @@
 
 a {
   color: white;
+}
+
+.to-dashboard-page-btn {
+  width: 20vw;
 }
