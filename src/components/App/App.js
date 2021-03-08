@@ -9,11 +9,14 @@ import './App.css';
 const App = () => {
   const [charities, setCharities] = useState([]);
   const [noCharitiesFoundError, setNoCharitiesFoundError] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const fetchCharitiesByCategory = (state, city, category) => {
+    setLoading(true);
     fetchLocalCharities(state, city, category)
       .then(response => {
         setCharities(modifyDataFromFetch(response))
+        setLoading(false)
       })
       .catch(error => {
         setNoCharitiesFoundError(error.message);
@@ -38,6 +41,7 @@ const App = () => {
             />
           }}
         />
+        {loading && <p className='loading-message'>Loading Charities...</p>}
         <Route
           exact path='/dashboard'
           render={() => {

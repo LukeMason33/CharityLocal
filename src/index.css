@@ -13,6 +13,7 @@ code {
 }
 
 header {
+  width: 100vw;
   background-color: black;
   height: 10vh;
   display: flex;
