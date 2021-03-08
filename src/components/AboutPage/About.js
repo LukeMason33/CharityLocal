@@ -2,8 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './About.css';
 import myPhoto from '../../assets/myPhoto.png';
+import PropTypes from 'prop-types';
 
-const AboutPage = ({charities, setLoading}) => {
+const AboutPage = ({charities}) => {
 
   const renderBackToCharitiesBtn = () => {
     if (charities.length > 0) {
@@ -41,3 +42,7 @@ const AboutPage = ({charities, setLoading}) => {
 }
 
 export default AboutPage;
+
+AboutPage.propTypes = {
+  charities: PropTypes.array
+}
