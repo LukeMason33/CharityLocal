@@ -1,0 +1,34 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('../../assets/aboutPageImage.jpg');
+  background-repeat: round;
+  height: 100vh;
+  width: 100vw;
+}
+
+.author, .app-desrciption, .resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 95vw;
+  background-color: #000000c7;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.author-img {
+  width: 18vw;
+}
+
+a {
+  color: white;
+}
+
+.to-dashboard-page-btn {
+  width: 20vw;
+}
