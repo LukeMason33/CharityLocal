@@ -54,6 +54,7 @@ const App = () => {
           render={() => {
             return < NotFoundPage />
           }}
+        />
       </Switch>
     </>
   )
