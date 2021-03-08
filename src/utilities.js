@@ -7,7 +7,6 @@ export const fetchLocalCharities = (state, city, category) => {
 }
 
 const handleFetchErrors = (response) => {
-  console.log(response)
   if (response.status >= 500) {
     throw new Error('The server is not responding. Please refresh the page and try again.')
   } else if (response.status === 404) {
