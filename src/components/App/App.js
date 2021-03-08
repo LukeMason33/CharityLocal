@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import LandingPage from '../LandingPage/LandingPage.js';
 import MainDashboard from '../MainDashboard/MainDashboard.js';
+import NotFoundPage from '../NotFoundPage/NotFoundPage.js';
 import {fetchLocalCharities, modifyDataFromFetch} from '../../utilities.js';
 import './App.css';
 
@@ -48,6 +49,11 @@ const App = () => {
             return < MainDashboard charities={charities} />
           }}
         />
+        <Route
+          path='*'
+          render={() => {
+            return < NotFoundPage />
+          }}
       </Switch>
     </>
   )
