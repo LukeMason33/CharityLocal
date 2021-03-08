@@ -1,6 +1,7 @@
 import React from 'react';
 import CharityCard from '../CharityCard/CharityCard.js';
 import './CharityContainer.css';
+import PropTypes from 'prop-types';
 
 const CharityContainer = ({charities}) => {
 
@@ -16,3 +17,7 @@ const CharityContainer = ({charities}) => {
 }
 
 export default CharityContainer;
+
+CharityContainer.propTypes = {
+  charities: PropTypes.array
+}

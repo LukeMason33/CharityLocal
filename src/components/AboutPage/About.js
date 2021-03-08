@@ -2,14 +2,15 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './About.css';
 import myPhoto from '../../assets/myPhoto.png';
+import PropTypes from 'prop-types';
 
-const AboutPage = ({charities, setLoading}) => {
+const AboutPage = ({charities, clearError}) => {
 
   const renderBackToCharitiesBtn = () => {
     if (charities.length > 0) {
       return (
         <Link to='/dashboard'>
-          <button className='to-dashboard-page-btn'>Back to Previously Searched Charities</button>
+          <button className='to-dashboard-page-btn' onClick={clearError}>Back to Previously Searched Charities</button>
         </Link>
       )
     }
@@ -32,7 +33,7 @@ const AboutPage = ({charities, setLoading}) => {
       </article>
       <div className='btns-container'>
         <Link to='/'>
-          <button className='to-landing-page-btn'>Back to Charity Search</button>
+          <button className='to-landing-page-btn' onClick={clearError}>Back to Charity Search</button>
         </Link>
         {renderBackToCharitiesBtn()}
       </div>
@@ -41,3 +42,8 @@ const AboutPage = ({charities, setLoading}) => {
 }
 
 export default AboutPage;
+
+AboutPage.propTypes = {
+  charities: PropTypes.array,
+  clearError: PropTypes.func
+}

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {categoryData, stateData} from '../../stateAndCategoryData.js';
 import './LandingPageForm.css';
+import PropTypes from 'prop-types';
 
 const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
   const [category, setCategory] = useState('');
@@ -77,5 +78,8 @@ const LandingPageForm = ({fetchCharitiesByCategory, error, clearError}) => {
 
 export default LandingPageForm;
 
-// <option value="volvo">Volvo</option> need this for each state/category
-// onChange events for all selects
+LandingPageForm.propTypes = {
+  fetchCharitiesByCategory: PropTypes.func,
+  error: PropTypes.string,
+  clearError: PropTypes.func
+}
