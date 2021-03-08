@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import LandingPage from '../LandingPage/LandingPage.js';
 import MainDashboard from '../MainDashboard/MainDashboard.js';
+import AboutPage from '../AboutPage/About.js';
 import NotFoundPage from '../NotFoundPage/NotFoundPage.js';
 import {fetchLocalCharities, modifyDataFromFetch} from '../../utilities.js';
 import './App.css';
@@ -42,11 +43,21 @@ const App = () => {
             />
           }}
         />
-        {loading && <p className='loading-message'>Loading Charities...</p>}
         <Route
           exact path='/dashboard'
           render={() => {
-            return < MainDashboard charities={charities} />
+            return (
+              <>
+                {loading && <p className='loading-message'>Loading Charities...</p>}
+                {!loading && < MainDashboard charities={charities} />}
+              </>
+            )
+          }}
+        />
+        <Route
+          exact path='/about'
+          render={() => {
+            return < AboutPage charities={charities} />
           }}
         />
         <Route
