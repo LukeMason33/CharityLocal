@@ -43,11 +43,15 @@ const App = () => {
             />
           }}
         />
-        {loading && <p className='loading-message'>Loading Charities...</p>}
         <Route
           exact path='/dashboard'
           render={() => {
-            return < MainDashboard charities={charities} />
+            return (
+              <>
+                {loading && <p className='loading-message'>Loading Charities...</p>}
+                {!loading && < MainDashboard charities={charities} />}
+              </>
+            )
           }}
         />
         <Route

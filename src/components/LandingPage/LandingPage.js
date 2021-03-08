@@ -19,6 +19,9 @@ const LandingPage = ({fetchCharitiesByCategory, error, clearError}) => {
           clearError={clearError}
         />
       </div>
+      <Link to='/about'>
+        <button className='to-about-btn'>About</button>
+      </Link>
     </section>
   )
 }

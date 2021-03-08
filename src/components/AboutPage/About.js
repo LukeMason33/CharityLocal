@@ -3,7 +3,18 @@ import {Link} from 'react-router-dom';
 import './About.css';
 import myPhoto from '../../assets/myPhoto.png';
 
-const AboutPage = () => {
+const AboutPage = ({charities}) => {
+
+  const renderBackToCharitiesBtn = () => {
+    if (charities.length > 0) {
+      return (
+        <Link to='/dashboard'>
+          <button className='to-dashboard-page-btn'>Back to Charities</button>
+        </Link>
+      )
+    }
+  }
+
   return (
     <section className='about-page'>
       <article className='author'>
@@ -23,9 +34,7 @@ const AboutPage = () => {
         <Link to='/'>
           <button className='to-landing-page-btn'>Back to Charity Search</button>
         </Link>
-        <Link to='/dashboard'>
-          <button className='to-dashboard-page-btn'>Back to Charities</button>
-        </Link>
+        {renderBackToCharitiesBtn()}
       </div>
     </section>
   )
