@@ -28,6 +28,8 @@ button {
   height: 5vh;
   width: 15vh;
   background-color: #bfbf26;
+  border: none;
+  font-weight: bold;
 }
 
 h2 {
