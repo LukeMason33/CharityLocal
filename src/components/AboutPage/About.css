@@ -10,8 +10,20 @@
 }
 
 .author, .app-desrciption, .resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   width: 95vw;
   background-color: #000000c7;
+  color: white;
+}
+
+.author-img {
+  width: 18vw;
+}
+
+a {
   color: white;
 }
