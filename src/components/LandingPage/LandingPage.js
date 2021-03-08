@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import LandingPageForm from '../LandingPageForm/LandingPageForm.js';
 import './LandingPage.css';
+import PropTypes from 'prop-types';
 
 const LandingPage = ({fetchCharitiesByCategory, error, clearError}) => {
   return (
@@ -27,3 +28,9 @@ const LandingPage = ({fetchCharitiesByCategory, error, clearError}) => {
 }
 
 export default LandingPage;
+
+LandingPage.propTypes = {
+  fetchCharitiesByCategory: PropTypes.func,
+  error: PropTypes.string,
+  clearError: PropTypes.func
+}
