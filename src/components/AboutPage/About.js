@@ -19,6 +19,14 @@ const AboutPage = () => {
         <h2 className='resources-header'>Resources</h2>
         <p className='resources-text'>For the data used on this website, I utilized <a className='data-link' href='https://www.charitynavigator.org/?c_src=WPAIDSEARCH&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r54ZiQTmEy7R4asgI-xObNIrf2473cNbYdalukIsrmr_l2iFSQF5kYaAuSmEALw_wcB'>Charity Navigator's</a> API.</p>
       </article>
+      <div className='btns-container'>
+        <Link to='/'>
+          <button className='to-landing-page-btn'>Back to Charity Search</button>
+        </Link>
+        <Link to='/dashboard'>
+          <button className='to-dashboard-page-btn'>Back to Charities</button>
+        </Link>
+      </div>
     </section>
   )
 }
