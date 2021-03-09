@@ -20,6 +20,7 @@ To search for charities, a user will:
   - Next select the state that they desire to find charities in. This select box includes all 50 states.
   - Next they will type in the city's name to refine the search even more. This is a text box, so the user must type the name of their city correctly.
   - After these steps, notice how the previosuly disabled 'Find Charities' button is now clickable. Click on this to be taken to the dashboard.
+
 ![gif of filling out form](https://media.giphy.com/media/KbSShWClTdJ6XTSIsC/giphy.gif)
 
 If there are no charities that match the user's search, then they will be brought back to the landing page with an error message displaying what went wrong, and suggesting to try a different category, or a different location.
@@ -29,6 +30,7 @@ Once on the dashboard, a user can view all charities that match their search. Ea
 ![screenshot of charity card](https://media.giphy.com/media/xjzW3BQt3MRMkBbAwJ/giphy.gif)
 
 The user can also travel to the About page from the dashboard, and they'll notice that if they have made a search in their session of opening up the app, they can view their previously searched charities by clicking that button.
+
 ![gif of viewing previous charities from About page](https://media.giphy.com/media/Zo2Qjx3UKwx4es3kum/giphy.gif)
 
 ## How to Install
