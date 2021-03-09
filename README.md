@@ -1,8 +1,8 @@
-# Cahrity Local - A Charity Info Site
+# Charity Local - A Charity Info Site
 For this project, I wanted to create an application that would target a niche audience, but also deploy and create something that I am passionate about, and that's why I have created Charity Local. It's an application that allows users to search for charities in their area by category. This app portrays my love for giving back to the community, and to also support people/communities that have difficulties with supporting themselves. I hope that people with similar passions will enjoy using this application.
 
 ### Visit Live Site Here
-[Chairity Live Site](https://shielded-wildwood-93350.herokuapp.com/)
+[Charity Local Live Site](https://shielded-wildwood-93350.herokuapp.com/)
 
 ## Project Members
 This project was designed and implemented by [Luke Mason](https://github.com/LukeMason33).
