@@ -2,7 +2,7 @@
 For this project, I wanted to create an application that would target a niche audience, but also deploy and create something that I am passionate about, and that's why I have created Charity Local. It's an application that allows users to search for charities in their area by category. This app portrays my love for giving back to the community, and to also support people/communities that have difficulties with supporting themselves. I hope that people with similar passions will enjoy using this application.
 
 ### Visit Live Site Here
-[Chairity Live Site](https://enigmatic-thicket-88642.herokuapp.com/) DEPLOY
+[Chairity Live Site](https://shielded-wildwood-93350.herokuapp.com/)
 
 ## Project Members
 This project was designed and implemented by [Luke Mason](https://github.com/LukeMason33).
@@ -10,7 +10,7 @@ This project was designed and implemented by [Luke Mason](https://github.com/Luk
 ## Usage
 Charity Local is a website that allows users to search for charities by category in any city that they desire, hence the name 'Charity Local'. All of the charity information for this site is fetched from [Charity Navigator's](https://www.charitynavigator.org/) API.
 Upon opening up the app, a user will be brough to the landing page with a form to fill out. Notice how the button 'Find Charities' is disabled at first, this is because all fields are required to be filled out in the form prior to trying to search for charities. This was done so that user error's can be prevented.
-![gif of opening app and trying to click button]()
+![gif of opening app and trying to click button](https://media.giphy.com/media/2dSzKFMq39b6jV334E/giphy.gif)
 
 From the landing page, a user can travel to the About page to view more information on the inspiration behind this app, a link to my github account, as well as the resources I used to create this.
 ![gif of going to About page from landing page]()
