@@ -29,12 +29,22 @@ a {
   color: white;
 }
 
-.to-dashboard-page-btn {
+.to-landing-page-btn {
   width: 20vw;
+  height: 8vh;
+}
+
+.to-dashboard-page-btn {
+  width: 30vh;
+  height: 8vh;
+}
+
+.btns-container {
+  display: flex;
 }
 
 @media only screen and (max-device-width : 650px) {
-  .to-dashboard-page-btn {
+  .to-landing-page-btn {
     width: 25vw;
   }
 }
