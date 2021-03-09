@@ -10,9 +10,11 @@ This project was designed and implemented by [Luke Mason](https://github.com/Luk
 ## Usage
 Charity Local is a website that allows users to search for charities by category in any city that they desire, hence the name 'Charity Local'. All of the charity information for this site is fetched from [Charity Navigator's](https://www.charitynavigator.org/) API.
 Upon opening up the app, a user will be brough to the landing page with a form to fill out. Notice how the button 'Find Charities' is disabled at first, this is because all fields are required to be filled out in the form prior to trying to search for charities. This was done so that user error's can be prevented.
+
 ![gif of opening app and trying to click button](https://media.giphy.com/media/2dSzKFMq39b6jV334E/giphy.gif)
 
 From the landing page, a user can travel to the About page to view more information on the inspiration behind this app, a link to my github account, as well as the resources I used to create this.
+
 ![gif of going to About page from landing page](https://media.giphy.com/media/0HsAHWhY9FQsOxXHjT/giphy.gif)
 
 To search for charities, a user will:
@@ -24,9 +26,11 @@ To search for charities, a user will:
 ![gif of filling out form](https://media.giphy.com/media/KbSShWClTdJ6XTSIsC/giphy.gif)
 
 If there are no charities that match the user's search, then they will be brought back to the landing page with an error message displaying what went wrong, and suggesting to try a different category, or a different location.
+
 ![gif of error message](https://media.giphy.com/media/P2Q5ctG6NLwQVzFvuo/giphy.gif)
 
 Once on the dashboard, a user can view all charities that match their search. Each of the charities will display: the charity's name(which serves as a link to their website), the charity's cause, the charity's address, and the charity's mission statement.
+
 ![screenshot of charity card](https://media.giphy.com/media/xjzW3BQt3MRMkBbAwJ/giphy.gif)
 
 The user can also travel to the About page from the dashboard, and they'll notice that if they have made a search in their session of opening up the app, they can view their previously searched charities by clicking that button.
