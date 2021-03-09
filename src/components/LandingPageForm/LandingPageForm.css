@@ -57,3 +57,8 @@
   font-size: initial;
   text-align: center;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+}
