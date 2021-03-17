@@ -14,5 +14,5 @@ script:
   - $(npm bin)/cypress run
 deploy:
   provide: heroku
-  app: ozoneIQ
+  app: shielded-wildwood-93350
   skip_cleanup: true
