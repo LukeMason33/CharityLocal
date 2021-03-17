@@ -1,26 +1,18 @@
-{
-  "language": "node_js",
-  "os": [
-    "mac"
-  ],
-  "dist": "xenial",
-  "node_js": [
-    "-\"node\""
-  ],
-  "cache": {
-    "npm": true,
-    "directories": [
-      "~/.cache"
-    ]
-  },
-  "install": [
-    "npm ci",
-    "npm run build"
-  ],
-  "before_script": [
-    "npm start -- --silent &"
-  ],
-  "script": [
-    "$(npm bin)/cypress run"
-  ]
-}
+language: node_js
+node_js:
+  - "node"
+cache:
+  npm: true
+  directories:
+    - ~/.cache
+install:
+  - npm ci
+  - npm run build
+before_script:
+  - npm start -- --silent &
+script:
+  - $(npm bin)/cypress run
+deploy:
+  provide: heroku
+  app: ozoneIQ
+  skip_cleanup: true
