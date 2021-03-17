@@ -1,7 +1,7 @@
 {
   "language": "node_js",
   "os": [
-    "linux"
+    "mac"
   ],
   "dist": "xenial",
   "node_js": [
